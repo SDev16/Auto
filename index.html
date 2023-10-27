@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#featured-car" class="navbar-link" data-nav-link>Explore cars</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="shop.html" class="navbar-link" data-nav-link>Car Shop</a>
+          </li>
+
+          <li>
+            <a href="spare.html" class="navbar-link" data-nav-link>Spare Parts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+        <a href="login.html" class="btn user-btn" aria-label="Profile">
+          <ion-icon name="person-outline"></ion-icon>
+          <span id="aria-label-txt">Contact Us</span>
+        </a>
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+            <h2 class="h1 hero-title">Welcome to Automotive shop</h2>
+
+            <p class="hero-text">
+              We sale both cars and spare parts
+            </p>
+          </div>
+
+          <div class="hero-banner"></div>
+
+          <form action="#" class="hero-form">
+
+            <div class="input-wrapper">
+              <label for="input-1" class="input-label">Car, model, or brand</label>
+
+              <input type="text" name="car-model" id="input-1" class="input-field"
+                placeholder="What car are you looking?" required>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-2" class="input-label">Max. price range</label>
+
+              <input type="text" name="monthly-pay" id="input-2" class="input-field" placeholder="Add an amount in $" required>
+            </div>
+
+            <button type="submit" class="btn">Request</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED CAR
+      -->
+
+      <section class="section featured-car" id="featured-car">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Mini Shop</h2>
+
+            <a href="shop.html" class="featured-car-link">
+              <span>View more</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="featured-car-list">
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./img/pic (1).jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="">Chevelle </a>
+                    </h3>
+
+                    <data class="year" value="2021">1967</data>
+                  </div>
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$35,0000</strong>
+                    </p>
+                    <form action="https://formspree.io/f/maygvvna" method="post">       
+                        <input type="email" name="Email" id="input-2" class="input-field" placeholder="Enter Email" required><br>
+                        <input type="text" name="Poduct Name" id="input-2" class="input-field" placeholder="Product Name" required><br>
+                     
+                      <button class="btn">Buy now</button>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./img/pic (2).jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="">Chevelle </a>
+                    </h3>
+
+                    <data class="year" value="2021">1969</data>
+                  </div>
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$33,000</strong>
+                    </p>
+                    <form action="https://formspree.io/f/maygvvna" method="post">       
+                        <input type="email" name="Email" id="input-2" class="input-field" placeholder="Enter Email" required><br>
+                        <input type="text" name="Poduct Name" id="input-2" class="input-field" placeholder="Product Name" required><br>
+                     
+                      <button class="btn">Buy now</button>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./img/pic (3).jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="">Chevrolet C10 Pickup </a>
+                    </h3>
+
+                    <data class="year" value="2021">1967</data>
+                  </div>
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$40,000</strong>
+                    </p>
+                    <form action="https://formspree.io/f/maygvvna" method="post">       
+                        <input type="email" name="Email" id="input-2" class="input-field" placeholder="Enter Email" required><br>
+                        <input type="text" name="Poduct Name" id="input-2" class="input-field" placeholder="Product Name" required><br>
+                     
+                      <button class="btn">Buy now</button>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./spare/pic (1).jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="">NOS Outer and center grille bow tie </a>
+                    </h3>
+
+                    <data class="year" value="2021">1971-72</data>
+                  </div>
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$1500</strong>
+                    </p>
+                    <form action="https://formspree.io/f/maygvvna" method="post">       
+                        <input type="email" name="Email" id="input-2" class="input-field" placeholder="Enter Email" required><br>
+                        <input type="text" name="Poduct Name" id="input-2" class="input-field" placeholder="Product Name" required><br>
+                     
+                      <button class="btn">Buy now</button>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./spare/pic (2).jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="">dashboard </a>
+                    </h3>
+
+                    <data class="year" value="2021">1995-99</data>
+                  </div>
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$400</strong>
+                    </p>
+                    <form action="https://formspree.io/f/maygvvna" method="post">       
+                        <input type="email" name="Email" id="input-2" class="input-field" placeholder="Enter Email" required><br>
+                        <input type="text" name="Poduct Name" id="input-2" class="input-field" placeholder="Product Name" required><br>
+                     
+                      <button class="btn">Buy now</button>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="./spare/pic (3).jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="">Door Panels </a>
+                    </h3>
+
+                    <data class="year" value="2021">1973-87</data>
+                  </div>
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>$800</strong>
+                    </p>
+                    <form action="https://formspree.io/f/maygvvna" method="post">       
+                        <input type="email" name="Email" id="input-2" class="input-field" placeholder="Enter Email" required><br>
+                        <input type="text" name="Poduct Name" id="input-2" class="input-field" placeholder="Product Name" required><br>
+                     
+                      <button class="btn">Buy now</button>
+                    </form>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+  
+
+          </ul><br>
+          <div class="card-price-wrapper">
+           <center><button class="btn"><a href="shop.html" class="linka">Car Shop</a></button></center> 
+           <div class="card-price-wrapper" >
+            <button class="btn" id="linka"><a href="spare.html" class="linka" >Spare parts</a></button>
+           </div>  
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GET START
+      -->
+
+      <section class="section get-start">
+        <div class="container">
+
+          <h2 class="h2 section-title">Get started with 3 simple steps</h2>
+
+          <ul class="get-start-list">
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-1">
+                  <ion-icon name="person-add-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Contact US</h3>
+
+                <p class="card-text">
+                  If the specific car or car parts you can contact us to get the specific part you need.
+                </p>
+
+                <a href="https://www.facebook.com/profile.php?id=100087943296743&mibextid=ZbWKwL" class="card-link">Get started</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-2">
+                  <ion-icon name="car-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Tell us what car you want</h3>
+
+                <p class="card-text">
+                  We are always available for your sevices and comments, so feel free to message us anytime.
+                </p>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-4">
+                  <ion-icon name="card-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">How to shop</h3>
+
+                <p class="card-text">
+                  Dear customer you can view the page and after seeing what you want, please kindly put your email and the name of the product you want. Thanks for understanding
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Our Blog</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="spare.html">
+                    <img src="./assets/images/blog-2.jpg" alt="What cars are most vulnerable" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="spare.html" class="btn card-badge">Repair</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="">Customers can contact us for repairs and car parts.</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">January 16, 20223</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">11550</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="shop.html">
+                    <img src="./assets/images/blog-3.jpg" alt="Statistics showed which average age" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="shop.html" class="btn card-badge">Cars</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="shop.html">Statistics showed about cars you need.</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">march 13, 2023</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">1146</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="shop.html">
+                    <img src="./assets/images/blog-4.jpg" alt="What´s required when renting a car?" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="shop.html" class="btn card-badge">Cars</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="shop.html">What´s required when Buying a car?</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">January 14, 2022</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">11544</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#featured-car">
+                    <img src="./assets/images/blog-5.jpg" alt="New rules for handling our cars" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#featured-car" class="btn card-badge">Featured-Car</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#featured-car">New rules for handling our cars</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-01-14">December 02, 2023</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="114">11466</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Ridex logo">
+          </a>
+
+          <p class="footer-text">
+            Search for cheap cars For Sale . With a diverse fleet of 19,000 vehicles, Automotive shop offers its
+            consumers,
+            attractive and fun selection.
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+
+          <li>
+            <a href="login.html" class="footer-link">Pricing plans</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="footer-link">Our blog</a>
+          </li>
+
+          <li>
+            <a href="login.html" class="footer-link">Contacts</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Help center</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Terms & conditions</a>
+          </li>
+
+        </ul>
+
+      
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+
+          <li>
+            <p>Facebook</p>
+            <a href="https://www.facebook.com/profile.php?id=100087943296743&mibextid=ZbWKwL" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <p>instagram</p>
+            <a href="http://www.instagram.com/automobile_sale" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+          <li>
+            <p>Email</p>
+            <a href="" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Webz-Doc</a>. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
